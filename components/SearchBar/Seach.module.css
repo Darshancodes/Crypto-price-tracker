@@ -1,0 +1,29 @@
+.coin_search {
+    margin-bottom: 64px;
+    display: flex;
+    align-items: center;
+    width: 300px;
+  }
+
+  .coin_search:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.4);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.4);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.4);
+backdrop-filter: blur(17px) saturate(180%);
+    -webkit-backdrop-filter: blur(17px) saturate(180%);
+  }
+  
+  .coin_input {
+    background: linear-gradient(to right, #fc5c7d, #6a82fb);;
+    border: none;
+    padding: 16px;
+    border-radius: 4px;
+    outline: none;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .coin_input::placeholder {
+    color: #e2e2e2;
+  }
+  
